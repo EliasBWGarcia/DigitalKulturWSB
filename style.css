@@ -116,9 +116,19 @@ footer {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
-.WSB-2 {
+.loss-porn {
     height: 925px;
     width: auto;
+}
+
+.gain-porn {
+    height: 325px;
+    width: auto;
+}
+
+.eksempel-bogleheads {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 @keyframes fadeIn {
