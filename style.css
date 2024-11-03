@@ -131,6 +131,16 @@ footer {
     margin-bottom: 10px;
 }
 
+.bogleheads-post1 {
+    height: 300px;
+    width: auto;
+}
+
+.bogleheads-post2 {
+    height: 300px;
+    width: auto;
+}
+
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
