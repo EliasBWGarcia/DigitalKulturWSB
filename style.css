@@ -46,7 +46,7 @@ header p {
     animation: fadeIn 1.5s ease-in;
 }
 
-.scroll-down {
+.knap-forside {
     display: inline-block;
     padding: 12px 24px;
     color: #1B1F3B;
@@ -60,7 +60,6 @@ header p {
 
 .scroll-down:hover {
     background: #A7C7E7;
-    transform: scale(1.1);
 }
 
 main {
@@ -98,20 +97,6 @@ section p {
     margin-bottom: 2px;
 }
 
-.theme-image {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    margin-top: 20px;
-    border: 4px solid #A7C7E7;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
-    transition: transform 0.3s ease;
-}
-
-.theme-image:hover {
-    transform: scale(1.05) rotate(2deg);
-}
-
 footer {
     background: #2E4A7D;
     color: #08ff00;
@@ -132,9 +117,10 @@ footer {
     width: auto;
 }
 
-.eksempel-bogleheads {
+.eksempel-opslag {
     margin-top: 10px;
     margin-bottom: 10px;
+    color: #08ff00;
 }
 
 .bogleheads-post1 {
@@ -161,7 +147,7 @@ aside {
 }
 
 
-
+/*Nedenstående er med hjælp fra ChatGPT*/
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
