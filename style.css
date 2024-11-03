@@ -90,6 +90,8 @@ section h2 {
 section p {
     font-size: 1.1em;
     color: #D1E4F2;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 
 .theme-image {
@@ -148,6 +150,13 @@ ol {
 ol li {
     color: #08ff00;
 }
+
+aside {
+    font-size: 14px;
+    text-align: center;
+}
+
+
 
 @keyframes fadeIn {
     from { opacity: 0; }
