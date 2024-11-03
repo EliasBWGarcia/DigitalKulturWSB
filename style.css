@@ -32,16 +32,22 @@ header {
 header h1 {
     font-size: 3em;
     font-weight: bold;
-    color: #A7C7E7;
+    color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
     animation: slideIn 2s ease-out;
 }
 
 header p {
     font-size: 1.2em;
     max-width: 600px;
-    color: #D1E4F2;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 10px;
     margin-bottom: 20px;
     animation: fadeIn 1.5s ease-in;
 }
