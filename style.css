@@ -141,6 +141,14 @@ footer {
     width: auto;
 }
 
+ol {
+    padding-left: 15px;
+}
+
+ol li {
+    color: #08ff00;
+}
+
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
